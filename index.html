@@ -1,0 +1,197 @@
+<html>
+<head>
+	<title>Micasa</title>
+	<link rel="stylesheet" href="css/base.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr.js"></script>
+	
+	<script>
+	  if (typeof WebFontConfig === "undefined") {
+	    WebFontConfig = new Object();
+	  }
+	  WebFontConfig['google'] = {
+	      families: ['Hind:300,400,500,600,700', 'Open+Sans:300,400,600,700,800,300italic,400italic,600italic,700italic,800italic', 'Lora:400,700,400italic,700italic']
+	  };
+	  (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+	  })();
+  </script>
+</head>
+<body>
+
+<div class="menu">
+	<div class="menu-center">
+	<ul>
+		<li class="menu-prequalify"><a href="#prequalify">Prequalify</a></li>
+		<li class="menu-househunt"><a href="#househunt">House Hunt</a></li>
+		<li class="menu-offer"><a href="#offer">Send Offer</a></li>
+		<li class="menu-escrow"><a href="#escrow">Escrow</a></li>
+		<li class="menu-keys"><a href="#keys">Get The Keys</a></li>
+	</ul>
+	</div>
+</div>
+
+<div class="househunt-superpanel">
+	<div class="househunt-header">
+		<div class="househunt-header-contents">
+			<div class="logo"><img src="elements/logo-micasa@2x.png"/></div>
+			<div class="useroptions">
+				<ul>
+					<li><a href="#prequalify">Buy</a></li>
+					<li><a href="#househunt">Sell</a></li>
+					<li><a href="#offer"><i class="fa fa-user"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="househunt-header-search">
+			<div class="search-container">
+				<form action="/action_page.php">
+		      <input type="text" placeholder="Foster City, CA" name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+			</div>
+		</div>
+	</div>
+	<div class="househunt-superlist">
+		
+		<div>
+			<main class="cd-main-content">
+				<div class="cd-tab-filter-wrapper">
+					<div class="cd-tab-filter">
+						
+						
+						<div class="cd-filter">
+							<form>
+								<div class="">
+									<div class="cd-filter-content">
+										<!-- JA DEMO <input type="search" placeholder="Foster City, CA">-->
+									</div>
+								</div>
+				
+								<div class="cd-filter-block">
+									<h4>Type</h4>
+				
+									<ul class="cd-filter-content cd-filters list" style="display: none">
+										<li>
+											<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+							    			<label class="checkbox-label" for="checkbox1">Single Family Home</label>
+										</li>
+				
+										<li>
+											<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+											<label class="checkbox-label" for="checkbox2">Townhouse</label>
+										</li>
+				
+										<li>
+											<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+											<label class="checkbox-label" for="checkbox3">Condominium</label>
+										</li>
+									</ul>
+								</div>
+				
+								<div class="cd-filter-block">
+									<h4>Beds</h4>
+									
+									<div class="cd-filter-content" style="display: none">
+										<div class="cd-select cd-filters">
+											<select class="filter" name="selectThis" id="selectThis">
+												<option value="">1+</option>
+												<option value=".option1">2+</option>
+												<option value=".option2">3+</option>
+												<option value=".option3">4+</option>
+												<option value=".option4">5+</option>
+											</select>
+										</div>
+									</div>
+								</div>
+				
+								<div class="cd-filter-block">
+									<h4>Price</h4>
+				
+									<ul class="cd-filter-content cd-filters list" style="display: none">
+										<li>
+											<input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+											<label class="radio-label" for="radio1">All</label>
+										</li>
+				
+										<li>
+											<input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+											<label class="radio-label" for="radio2">Below $500k</label>
+										</li>
+				
+										<li>
+											<input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+											<label class="radio-label" for="radio3">Below $1m</label>
+										</li>
+									</ul>
+								</div>
+							</form>
+						</div>
+						
+						
+						
+						<ul class="cd-filters">
+							<li class="placeholder"> 
+								<a data-type="all" href="#0">All</a>
+							</li> 
+							<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+							<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Favs</a></li>
+							<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">New</a></li>
+						</ul>
+						
+						
+					</div>
+				</div>
+				
+				
+		
+				<section class="cd-gallery">
+					<ul>
+						<li class="mix color-1 check1 radio2 option3"><img src="img/img-1.jpg" alt="Image 1"></li>
+						<li class="mix color-2 check2 radio2 option2"><img src="img/img-2.jpg" alt="Image 2"></li>
+						<li class="mix color-1 check3 radio3 option1"><img src="img/img-3.jpg" alt="Image 3"></li>
+						<li class="mix color-1 check3 radio2 option4"><img src="img/img-4.jpg" alt="Image 4"></li>
+						<li class="mix color-1 check1 radio3 option2"><img src="img/img-5.jpg" alt="Image 5"></li>
+						<li class="mix color-2 check2 radio3 option3"><img src="img/img-6.jpg" alt="Image 6"></li>
+						<li class="mix color-2 check2 radio2 option1"><img src="img/img-7.jpg" alt="Image 7"></li>
+						<li class="mix color-1 check1 radio3 option4"><img src="img/img-8.jpg" alt="Image 8"></li>
+						<li class="mix color-2 check1 radio2 option3"><img src="img/img-9.jpg" alt="Image 9"></li>
+						<li class="mix color-1 check3 radio2 option4"><img src="img/img-10.jpg" alt="Image 10"></li>
+						<li class="mix color-1 check3 radio3 option2"><img src="img/img-11.jpg" alt="Image 11"></li>
+						<li class="mix color-2 check1 radio3 option1"><img src="img/img-12.jpg" alt="Image 12"></li>
+						<li class="gap"></li>
+						<li class="gap"></li>
+						<li class="gap"></li>
+					</ul>
+					<div class="cd-fail-message">No results found</div>
+				</section>
+		
+		
+			</main>
+		</div>
+	
+	</div>
+</div>
+	
+<iframe width="100%" height="100%" frameborder="0" style="border:0" class="househunt-map"
+src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCBuTtt-C_MpwDTLZ0Mht4Bu0JUqIZaToQ
+&q=houses+in+Foster+City,CA" allowfullscreen>
+</iframe>
+
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+	
